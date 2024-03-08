@@ -14,11 +14,6 @@ export const personalData = {
   github: "https://github.com/yeonjin1357",
   notion: "https://www.notion.so/jinjin98/13e27eec4b9d437180818e50846d1584",
   velog: "https://velog.io/@yeonjin1357",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/연진-최-004ba62ab/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1vsnQDF-Wn-3869i2kU8u-BIj16VnjlrP/view?usp=drive_link",
 };

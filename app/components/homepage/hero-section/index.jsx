@@ -45,7 +45,7 @@ function HeroSection() {
             </Link>
 
             <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}>
-              <span>Get Resume</span>
+              <span>JINJIN 이력서</span>
               <MdDownload size={16} />
             </Link>
           </div>
@@ -66,7 +66,7 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">JINJIN</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{"{"}</span>
               </div>
