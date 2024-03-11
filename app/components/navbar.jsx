@@ -27,11 +27,11 @@ function Navbar() {
               <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">SKILLS</div>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#education">
               <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">EDUCATION</div>
             </a>
-          </li>
+          </li> */}
           <li>
             <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs">
               <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">BLOGS</div>
