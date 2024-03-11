@@ -10,13 +10,17 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
+    "@types/react-typist": "^2.0.6",
     "lottie-react": "^2.4.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
     "react-fast-marquee": "^1.6.2",
     "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "react-typed": "^2.0.12",
+    "react-typewriter-hook": "^1.0.2",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "autoprefixer": "latest",

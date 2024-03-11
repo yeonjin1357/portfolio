@@ -1,6 +1,7 @@
 // @flow strict
 
 import { personalData } from "@/utils/data/personal-data";
+import TypingAnimation from "./TypingAnimation.client";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
@@ -17,6 +18,8 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             안녕하세요, <br />
+            <TypingAnimation></TypingAnimation>
+            <br />
             WEB <span className=" text-[#16f2b3]">{personalData.designation}</span> <br />
             <span className=" text-pink-500">{personalData.name}</span> 입니다.
           </h1>
@@ -45,7 +48,7 @@ function HeroSection() {
             </Link>
 
             <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}>
-              <span>JINJIN 이력서</span>
+              <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
           </div>
@@ -66,7 +69,7 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">JINJIN</span>
+                <span className="mr-2 text-white">coder</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{"{"}</span>
               </div>
