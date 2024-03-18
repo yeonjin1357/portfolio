@@ -9,7 +9,7 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 
 async function getData() {
-  // 새로운 URL을 사용
+  // velog 게시물 json 가져오기
   const res = await fetch(`https://jinjin98.com/public_html/www/articles.json`);
 
   if (!res.ok) {
