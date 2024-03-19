@@ -10,7 +10,8 @@ import Skills from "./components/homepage/skills";
 
 async function getData() {
   // velog 게시물 json 가져오기
-  const res = await fetch(`https://jinjin98.com/public_html/www/articles.json`);
+  const url = `https://jinjin98.com/public_html/www/articles.json?timestamp=${new Date().getTime()}`;
+  const res = await fetch(url);
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");
@@ -19,6 +20,7 @@ async function getData() {
 
   // thumbnail이 있는 항목만 필터링
   const filtered = data.filter((item) => item?.thumbnail);
+  console.log(filtered);
   return filtered;
 }
 
