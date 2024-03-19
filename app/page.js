@@ -10,7 +10,7 @@ import Skills from "./components/homepage/skills";
 
 async function getData() {
   // velog 게시물 json 가져오기
-  const url = `https://jinjin98.com/public_html/www/articles.json?timestamp=${new Date().getTime()}`;
+  const url = `https://jinjin98.com/public_html/www/articles.json?timestamp=${new Date().getTime()}`; // 3.19 오류 해결 URL에 고유한 쿼리 파라미터(타임스탬프)를 추가하여 캐싱 문제를 회피
   const res = await fetch(url);
 
   if (!res.ok) {
