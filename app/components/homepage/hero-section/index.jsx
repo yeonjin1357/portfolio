@@ -1,5 +1,3 @@
-// @flow strict
-
 import { personalData } from "@/utils/data/personal-data";
 import TypingAnimation from "./TypingAnimation.client";
 import Image from "next/image";
@@ -69,7 +67,7 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">JINJIN</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{"{"}</span>
               </div>

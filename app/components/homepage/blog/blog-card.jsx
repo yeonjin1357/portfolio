@@ -1,7 +1,5 @@
-// @flow strict
 import Image from "next/image";
 import Link from "next/link";
-import { BsHeartFill } from "react-icons/bs";
 
 function BlogCard({ blog }) {
   return (
