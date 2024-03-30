@@ -1,4 +1,5 @@
-import { personalData } from "@/utils/data/personal-data";
+import fs from "fs";
+import path from "path";
 import AboutSection from "./components/homepage/about";
 import Blog from "./components/homepage/blog";
 import ContactSection from "./components/homepage/contact";
@@ -8,26 +9,25 @@ import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import { revalidatePath } from "next/cache";
 
-async function getData() {
-  // velog 게시물 json 가져오기
-  const url = `https://jinjin98.com/public_html/www/articles.json?timestamp=${new Date().getTime()}`; // 3.26 오류 해결 URL에 고유한 쿼리 파라미터(타임스탬프)를 추가하여 캐싱 문제를 회피
-  const res = await fetch(url);
-  revalidatePath("/", "layout");
+// getStaticProps를 사용하여 빌드 시 articles.json 파일을 로드합니다.
+export async function getStaticProps() {
+  // articles.json 파일의 경로를 지정합니다.
+  const filePath = path.join(process.cwd(), "utils", "data", "articles.json");
+  const jsonData = fs.readFileSync(filePath);
+  const data = JSON.parse(jsonData);
 
-  if (!res.ok) {
-    throw new Error("Failed to fetch data");
-  }
-  const data = await res.json();
-
-  // thumbnail이 있는 항목만 필터링
+  // thumbnail이 있는 항목만 필터링합니다.
   const filtered = data.filter((item) => item?.thumbnail);
-  console.log(filtered);
-  return filtered;
+
+  // props로 데이터를 반환합니다.
+  return {
+    props: {
+      blogs: filtered,
+    },
+  };
 }
 
-export default async function Home() {
-  const blogs = await getData();
-
+export default async function Home({ blogs }) {
   return (
     <>
       <HeroSection />
