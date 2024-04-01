@@ -1,9 +1,22 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EC%9B%B9%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%98%95%EC%8B%9D%EB%93%A4",
+        "headline": "웹에서 사용되는 이미지 형식들",
+        "context": "웹에서 사용되는 이미지 형식 JPG, PNG, Webp, SVG에 대해서 자세히 알아보겠습니다.",
+        "date": "약 3시간 전",
+        "tags": [
+            "JPG",
+            "png",
+            "svg",
+            "webp"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d098d609-1695-4a3d-b02f-5a550dd4d0a6/image.svg"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%A6%AC%ED%8E%98%EC%9D%B8%ED%8A%B8",
         "headline": "브라우저 렌더링 과정 및 리플로우, 리페인트",
         "context": "브라우저 렌더링 과정에 대해서 자세히 알아보겠습니다 😊",
-        "date": "약 6시간 전",
+        "date": "어제",
         "tags": [
             "브라우저 렌더링"
         ],
@@ -151,15 +164,5 @@
             "useful"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/f30e94ba-0ce7-46a8-b7a7-93c62497ba20/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%9D%BC%EC%83%81-23%EB%85%84-78%EC%9B%94-%EA%B7%BC%ED%99%A9",
-        "headline": "[일상] 23년 7~8월 근황",
-        "context": "안녕하세요! 오랜만에 Velog에 접속해서 글을 작성하네요...😭😭",
-        "date": "2023년 9월 25일",
-        "tags": [
-            "daily"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/a2816c31-daf3-4c25-8912-6b67ba919534/image.png"
     }
 ]
