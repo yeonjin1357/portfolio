@@ -15,5 +15,5 @@ export const personalData = {
   notion: "https://www.notion.so/jinjin98/13e27eec4b9d437180818e50846d1584",
   velog: "https://velog.io/@yeonjin1357",
   linkedIn: "https://www.linkedin.com/in/연진-최-004ba62ab/",
-  resume: "https://drive.google.com/file/d/1yQXBgBWb_37ZRk7xs0VPHwC5nYngLRP4/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1At_Cg3rVQVVlmsjUX2il4vuUmQzGeQO2/view?usp=drive_link",
 };
