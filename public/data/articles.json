@@ -1,9 +1,17 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/Redux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Redux-Toolkit",
+        "headline": "Redux 그리고 Redux Toolkit",
+        "context": "전역 상태 관리 라이브러리 중 하나인 Redux에 대해서 알아보겠습니다 😊",
+        "date": "약 8시간 전",
+        "tags": [],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/c7e8c77c-a0eb-4917-8b6b-a396d181a4b9/image.avif"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80",
         "headline": "자바스크립트 클로저란?",
         "context": "클로저란 자바스크립트에서 중요한 개념 중 하나이지만 그만큼 이해하기도 쉽지 않은 개념입니다.",
-        "date": "3분 후",
+        "date": "어제",
         "tags": [
             "JavaScript"
         ],
@@ -13,7 +21,7 @@
         "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84",
         "headline": "자바스크립트 비동기 처리 (이벤트 루프)",
         "context": "자바스크립트 비동기 처리 그리고 이벤트 루프에 대해서 알아보겠습니다.",
-        "date": "6일 전",
+        "date": "2024년 4월 2일",
         "tags": [
             "JavaScript"
         ],
@@ -149,17 +157,5 @@
             "useful"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/6176dbf5-c935-43b4-91f6-8a66dfe62cb3/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-BFS-%EA%B7%B8%EB%A6%AC%EA%B3%A0-DFS",
-        "headline": "[알고리즘] BFS 그리고 DFS",
-        "context": "그래프 탐색 알고리즘 중 BFS와 DFS에 대해서 집중 탐구",
-        "date": "2023년 11월 2일",
-        "tags": [
-            "JavaScript",
-            "algorism",
-            "useful"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/36d1d9f4-5278-43c4-8612-df0e30361a39/image.png"
     }
 ]
