@@ -3,7 +3,7 @@
         "href": "https://velog.io/@yeonjin1357/Next.js-13-%EC%9D%B4-useRouter%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C",
         "headline": "Next.js 13 이후 useRouter에 대해서",
         "context": "Next.js 13버전 이후로 달라진 useRouter 사용법",
-        "date": "2일 전",
+        "date": "3일 전",
         "tags": [
             "next.js"
         ],
@@ -13,7 +13,7 @@
         "href": "https://velog.io/@yeonjin1357/Redux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Redux-Toolkit",
         "headline": "Redux 그리고 Redux Toolkit",
         "context": "전역 상태 관리 라이브러리 중 하나인 Redux에 대해서 알아보겠습니다 😊",
-        "date": "4일 전",
+        "date": "5일 전",
         "tags": [],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/c7e8c77c-a0eb-4917-8b6b-a396d181a4b9/image.avif"
     },
@@ -21,7 +21,7 @@
         "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80",
         "headline": "자바스크립트 클로저란?",
         "context": "클로저란 자바스크립트에서 중요한 개념 중 하나이지만 그만큼 이해하기도 쉽지 않은 개념입니다.",
-        "date": "5일 전",
+        "date": "6일 전",
         "tags": [
             "JavaScript"
         ],
