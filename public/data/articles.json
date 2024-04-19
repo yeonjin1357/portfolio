@@ -1,9 +1,20 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/Next.js-App-Router-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+        "headline": "Next.js App Router 알아보기",
+        "context": "Next.js 13버전 이후로 새롭게 생긴 App router 방식에 대해 알아보겠습니다.",
+        "date": "약 1시간 후",
+        "tags": [
+            "app router",
+            "next.js"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/bb5dc44f-907e-4e3d-b705-2931b550fe57/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/Next.js-13-%EC%9D%B4-useRouter%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C",
         "headline": "Next.js 13 이후 useRouter에 대해서",
         "context": "Next.js 13버전 이후로 달라진 useRouter 사용법",
-        "date": "6일 전",
+        "date": "2024년 4월 11일",
         "tags": [
             "next.js"
         ],
@@ -144,16 +155,5 @@
             "React"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/af8fb419-7cc9-4712-8024-de74a470d8b3/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/React-Styled-components-VS-CSS-Module",
-        "headline": "[React] Styled-components VS CSS Module",
-        "context": "대표적인 리액트 컴포넌트 스타일링 방법 2가지를 알아봅니다.",
-        "date": "2023년 12월 7일",
-        "tags": [
-            "React",
-            "style"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/b9ebf8e8-5825-41df-a166-7a0e7dd2010b/image.png"
     }
 ]
