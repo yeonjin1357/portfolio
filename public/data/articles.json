@@ -1,5 +1,15 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/Zustand%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC",
+        "headline": "Zustand를 이용한 상태관리",
+        "context": "간단하고 유연한 상태 관리 라이브러리 Zustand!",
+        "date": "약 14시간 전",
+        "tags": [
+            "zustand"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/a71c1c21-9eea-4cc2-a06f-b255ced458de/image.jpg"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/TCP-%EA%B7%B8%EB%A6%AC%EA%B3%A0-UDP",
         "headline": "TCP 그리고 UDP",
         "context": "TCP 그리고 UDP 프로토콜은 무엇일까요? 🙄",
@@ -142,15 +152,5 @@
             "canvas"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/140d7822-6fff-4881-8676-b1e67212dae2/image.webp"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/React-Side-Effect-%EA%B7%B8%EB%A6%AC%EA%B3%A0-useEffect",
-        "headline": "[React] Side Effect 그리고 useEffect",
-        "context": "React useEffect 훅 완전 정복하기",
-        "date": "2023년 12월 18일",
-        "tags": [
-            "React"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/8d113b5b-336d-451d-8bfb-e541fce0f51c/image.png"
     }
 ]
