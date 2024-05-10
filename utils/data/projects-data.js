@@ -9,7 +9,7 @@ export const projectsData = [
     컴포넌트 스타일링은 CSS-Module을 사용하였고 호스팅 배포는 Vercel을 이용하여 배포하였습니다.`,
     tools: ["React", "Redux-Toolkit", "OpenAI API", "CSS-Module", "JavaScript", "Firebase", "Vercel"],
     role: "개인 프로젝트",
-    link: "https://www.notion.so/jinjin98/BUDDY-e3a82015e4e4439d9689998e755a9b36?pvs=4",
+    link: "https://www.notion.so/jinjin98/BUDDY-3f109f3a883c4e1fa28bac8f22091349?pvs=4",
   },
   {
     id: 2,

@@ -1,4 +1,4 @@
-export const skillsData = ["HTML", "CSS", "Javascript", "Typescript", "React", "Next JS", "Tailwind", "ViteJS", "MySQL", "Git", "Bootstrap", "Firebase", "MaterialUI"];
+export const skillsData = ["HTML", "CSS", "Javascript", "Typescript", "React", "Next JS", "Tailwind", "Git"];
 
 /* 
   HTML
