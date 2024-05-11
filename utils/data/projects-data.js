@@ -1,6 +1,16 @@
 export const projectsData = [
   {
     id: 1,
+    name: "영어나무",
+    description: `💡 영어나무 프로젝트는 React + TypeScript + Next.js를 기반으로 한 개인 프로젝트이며, 사용자가 입력한 정답을 OPEN AI의 어시스턴트 API를 사용하여 처리하였습니다. 오답이라면 이유까지 자세히 설명할 수 있도록 구현하였습니다.
+    
+    그렇게 크지 않은 개인 프로젝트라서 전역 상태 관리 라이브러리는 Zustand를 사용하였습니다. 덕분에 Redux와 비교해서 많은 보일러플레이트 코드를 제외할 수 있었습니다.`,
+    tools: ["React", "Next.js", "TypeScript", "OpenAI API", "CSS-Module", "Vercel"],
+    role: "개인 프로젝트",
+    link: "https://www.notion.so/jinjin98/a5bcbe414bef4b7cb78c7683f5e77e6a?pvs=4",
+  },
+  {
+    id: 2,
     name: "BUDDY (AI 챗봇)",
     description: `💡 BUDDY 프로젝트는 React를 기반으로 한 개인 프로젝트이며, OpenAI API와 Firebase 데이터베이스를 통합하여 동작하는 AI 챗봇 웹사이트로 개발되었습니다. 사용자는 이메일과 비밀번호를 통해 인증 받고, 이메일 인증 후 AI 챗봇과의 대화를 시작할 수 있습니다.
       
@@ -12,7 +22,7 @@ export const projectsData = [
     link: "https://www.notion.so/jinjin98/BUDDY-3f109f3a883c4e1fa28bac8f22091349?pvs=4",
   },
   {
-    id: 2,
+    id: 3,
     name: "RealTime (실시간 채팅)",
     description: `💡 RealTime 프로젝트는 React를 기반으로 한 개인 프로젝트이며, React를 사용하여 제작한 첫번째 프로젝트입니다. React hooks 사용에 익숙해지기 위해서 그리고 다양한 기능을 구현해보기 위해서 개발한 RealiTime 프로젝트는 방문자들이 실시간으로 채팅을 할 수 있는 사이트입니다.
     
