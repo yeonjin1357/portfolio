@@ -4,7 +4,7 @@ export const projectsData = [
     name: "영어나무",
     description: `💡 영어나무 프로젝트는 React + TypeScript + Next.js를 기반으로 한 개인 프로젝트이며, 사용자가 입력한 정답을 OPEN AI의 어시스턴트 API를 사용하여 처리하였습니다. 오답이라면 이유까지 자세히 설명할 수 있도록 구현하였습니다.
     
-    그렇게 크지 않은 개인 프로젝트라서 전역 상태 관리 라이브러리는 Zustand를 사용하였습니다. 덕분에 Redux와 비교해서 많은 보일러플레이트 코드를 제외할 수 있었습니다.`,
+    Atomic Design Pattern을 기반으로 폴더 구조를 구성하였으며, 전역 상태 관리 라이브러리는 가벼운 Zustand를 사용하였습니다.`,
     tools: ["React", "Next.js", "TypeScript", "OpenAI API", "CSS-Module", "Vercel"],
     role: "개인 프로젝트",
     link: "https://www.notion.so/jinjin98/a5bcbe414bef4b7cb78c7683f5e77e6a?pvs=4",
