@@ -80,11 +80,13 @@ function HeroSection() {
               <div className="ml-4 lg:ml-8 mr-2">
                 <span className=" text-white">skills:</span>
                 <span className="text-gray-400">{`['`}</span>
+                <span className="text-amber-300">HTML</span>
+                <span className="text-gray-400">{`[, `}</span>
+                <span className="text-amber-300">CSS</span>
+                <span className="text-gray-400">{`[, `}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">NextJS</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Redux</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
@@ -92,12 +94,6 @@ function HeroSection() {
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Git</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">ES6</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Firebase</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Jquery</span>
-                <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hardWorker:</span>
