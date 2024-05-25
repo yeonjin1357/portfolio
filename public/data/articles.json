@@ -1,5 +1,15 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98",
+        "headline": "자바스크립트 가비지 컬렉션",
+        "context": "자바스크립트 메모리 관리를 이해하다!",
+        "date": "약 1시간 후",
+        "tags": [
+            "JavaScript"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/b0ca9284-1357-42fa-9cbc-40a02496b51f/image.webp"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/Zustand%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC",
         "headline": "Zustand를 이용한 상태관리",
         "context": "간단하고 유연한 상태 관리 라이브러리 Zustand!",
@@ -142,15 +152,5 @@
             "React"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7de1b682-cae4-4fb5-a8e8-9a7140fb7b0a/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/Canvas-%ED%83%9C%EA%B7%B8%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C",
-        "headline": "Canvas 태그에 대해서",
-        "context": "캔버스 태그로 그림을 그려보자 🎨",
-        "date": "2024년 1월 11일",
-        "tags": [
-            "canvas"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/140d7822-6fff-4881-8676-b1e67212dae2/image.webp"
     }
 ]
