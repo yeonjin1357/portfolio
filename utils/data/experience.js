@@ -11,4 +11,10 @@ export const experiences = [
     company: '프론트엔드 개발 (FrontEnd Developer)',
     duration: '(2024.06 - ing)',
   },
+  {
+    id: 3,
+    title: '테스트',
+    company: '테스트',
+    duration: '(2024.06 - ing)',
+  },
 ];
