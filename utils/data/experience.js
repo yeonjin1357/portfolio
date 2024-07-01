@@ -11,4 +11,10 @@ export const experiences = [
     company: '엑셈 (Exem)',
     duration: '(2024.06 - ing)',
   },
+  {
+    id: 3,
+    title: '테스트',
+    company: '테스트',
+    duration: '(2024.06 - ing)',
+  },
 ];
