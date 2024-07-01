@@ -7,7 +7,7 @@ export const experiences = [
   },
   {
     id: 2,
-    title: '엑셈 (Exem',
+    title: '엑셈 (Exem)',
     company: '프론트엔드 개발 (FrontEnd Developer)',
     duration: '(2024.06 - ing)',
   },
