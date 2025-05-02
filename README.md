@@ -14,4 +14,4 @@
 
 ![](./public/image/screen.png)
 
-## 사이트 바로 가기 [here](portfolio-jinjin.vercel.app/).
+## 사이트 바로 가기 [here](https://portfolio-jinjin.vercel.app/).
