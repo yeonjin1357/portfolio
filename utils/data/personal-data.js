@@ -16,5 +16,5 @@ export const personalData = {
   velog: 'https://velog.io/@yeonjin1357',
   linkedIn: 'https://www.linkedin.com/in/연진-최-004ba62ab/',
   resume:
-    'https://drive.google.com/file/d/1Xc__9JqL93lPaPdie77xSQfL6kFwkaU7/view?usp=drive_link',
+    'https://drive.google.com/file/d/1-Uo0rPAgx8JYzLxoLYbB9CbAHbODTCZZ/view?usp=drive_link',
 };
