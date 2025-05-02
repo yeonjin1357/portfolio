@@ -1,5 +1,16 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/rrweb%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B8%EC%85%98-%EA%B8%B0%EB%A1%9D-%EC%98%81%EC%83%81-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0",
+        "headline": "rrweb을 활용한 사용자 세션 기록 영상 구현하기(작성 ing)",
+        "context": "rrweb 라이브러리를 활용하여 영상 레코드 & 리플레이를 구현",
+        "date": "6분 전",
+        "tags": [
+            "rrweb",
+            "rum"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7e1c913b-ec2b-4247-ad46-9aff34bdeaa5/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EA%B3%BC-%ED%81%B4%EB%9E%98%EC%8A%A4",
         "headline": "자바스크립트의 프로토타입과 클래스",
         "context": "자바스크립트에서 프로토타입과 클래스는 어떻게 다른 걸까요?",
@@ -139,16 +150,5 @@
             "framer-motion"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/78edc4e1-7a89-4029-b880-ec1b805b299a/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/CSS-Clipping%EA%B3%BC-Masking-%EC%86%8D%EC%84%B1",
-        "headline": "CSS Clipping과 Masking 속성",
-        "context": "CSS Clipping & Masking 속성",
-        "date": "2024년 3월 19일",
-        "tags": [
-            "CSS",
-            "mask"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/162a9723-7eb3-418a-acd5-5ee1b5af57dc/image.png"
     }
 ]
