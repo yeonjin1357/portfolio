@@ -1,9 +1,19 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-690-25.04.30",
+        "headline": "[번역] Frontend Focus #690 - 25.04.30",
+        "context": "25년 4월 30일 프론트엔드 뉴스레터",
+        "date": "약 16시간 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/5f453bda-a194-4841-a4a7-fa71b554f83b/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/Tailwind-CSS-vs-SCSS-%EC%A0%84%EA%B2%A9-%EB%B9%84%EA%B5%90",
         "headline": "Tailwind CSS vs SCSS 전격 비교",
         "context": "사내 팀 회의에서 나온 의견에 대해서 포스팅합니다!",
-        "date": "1일 전",
+        "date": "3일 전",
         "tags": [
             "CSS",
             "scss",
@@ -15,7 +25,7 @@
         "href": "https://velog.io/@yeonjin1357/rrweb%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B8%EC%85%98-%EA%B8%B0%EB%A1%9D-%EC%98%81%EC%83%81-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0",
         "headline": "rrweb을 활용한 사용자 세션 기록 영상 구현하기",
         "context": "rrweb 라이브러리를 활용하여 영상 레코드 & 리플레이를 구현",
-        "date": "4일 전",
+        "date": "5일 전",
         "tags": [
             "rrweb",
             "rum"
@@ -141,15 +151,5 @@
             "webp"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d098d609-1695-4a3d-b02f-5a550dd4d0a6/image.svg"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-%EB%B0%8F-%EB%A6%AC%ED%94%8C%EB%A1%9C%EC%9A%B0-%EB%A6%AC%ED%8E%98%EC%9D%B8%ED%8A%B8",
-        "headline": "브라우저 렌더링 과정 및 리플로우, 리페인트",
-        "context": "브라우저 렌더링 과정에 대해서 자세히 알아보겠습니다 😊",
-        "date": "2024년 3월 30일",
-        "tags": [
-            "브라우저 렌더링"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/acda4965-eb68-452e-bfde-9586cc68a3d6/image.png"
     }
 ]
