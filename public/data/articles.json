@@ -1,9 +1,19 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-691-25.05.07",
+        "headline": "[번역] Frontend Focus #691 - 25.05.07",
+        "context": "25년 5월 7일 프론트엔드 뉴스레터",
+        "date": "약 8시간 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/033d944e-e162-4658-b28d-fb5c165fe846/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-690-25.04.30",
         "headline": "[번역] Frontend Focus #690 - 25.04.30",
         "context": "25년 4월 30일 프론트엔드 뉴스레터",
-        "date": "5일 전",
+        "date": "6일 전",
         "tags": [
             "news"
         ],
@@ -13,7 +23,7 @@
         "href": "https://velog.io/@yeonjin1357/Tailwind-CSS-vs-SCSS-%EC%A0%84%EA%B2%A9-%EB%B9%84%EA%B5%90",
         "headline": "Tailwind CSS vs SCSS 전격 비교",
         "context": "사내 팀 회의에서 나온 의견에 대해서 포스팅합니다!",
-        "date": "7일 전",
+        "date": "2025년 5월 4일",
         "tags": [
             "CSS",
             "scss",
@@ -138,18 +148,5 @@
             "JavaScript"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/0045ece6-69ed-41f1-99fe-fded03090fd8/image.jpg"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%9B%B9%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%EB%90%98%EB%8A%94-%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%98%95%EC%8B%9D%EB%93%A4",
-        "headline": "웹에서 사용되는 이미지 형식들",
-        "context": "웹에서 사용되는 이미지 형식 JPG, PNG, Webp, SVG에 대해서 자세히 알아보겠습니다.",
-        "date": "2024년 3월 31일",
-        "tags": [
-            "JPG",
-            "png",
-            "svg",
-            "webp"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d098d609-1695-4a3d-b02f-5a550dd4d0a6/image.svg"
     }
 ]
