@@ -1,5 +1,15 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-693-25.05.21",
+        "headline": "[번역] Frontend Focus #693 - 25.05.21",
+        "context": "25년 5월 21일 프론트엔드 뉴스",
+        "date": "19분 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d07f8bda-a3df-45e8-bca7-0d42719c98b7/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-692-25.05.14-%EC%9E%84%EC%8B%9C",
         "headline": "[번역] Frontend Focus #692 - 25.05.14",
         "context": "25년 5월 14일 프론트엔드 뉴스레터",
@@ -138,15 +148,5 @@
         "date": "2024년 4월 9일",
         "tags": [],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/c7e8c77c-a0eb-4917-8b6b-a396d181a4b9/image.avif"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%ED%81%B4%EB%A1%9C%EC%A0%80%EB%9E%80",
-        "headline": "자바스크립트 클로저란?",
-        "context": "클로저란 자바스크립트에서 중요한 개념 중 하나이지만 그만큼 이해하기도 쉽지 않은 개념입니다.",
-        "date": "2024년 4월 8일",
-        "tags": [
-            "JavaScript"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/1fdb4bb3-06ac-481b-8d2a-f3f9940b1ec4/image.avif"
     }
 ]
