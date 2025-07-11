@@ -1,9 +1,29 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-695-25.06.04",
+        "headline": "[번역] Frontend Focus #695 - 25.06.04",
+        "context": "25년 6월 4일 프론트엔드 뉴스",
+        "date": "약 20시간 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/1992bf54-c7cb-40d0-9713-f498d08a0949/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-694-25.05.28",
+        "headline": "[번역] Frontend Focus #694 - 25.05.28",
+        "context": "25년 5월 28일 프론트엔드 뉴스",
+        "date": "약 22시간 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/0e7e653e-96d9-4fe4-906e-cd930714b035/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-693-25.05.21",
         "headline": "[번역] Frontend Focus #693 - 25.05.21",
         "context": "25년 5월 21일 프론트엔드 뉴스",
-        "date": "19분 전",
+        "date": "약 23시간 전",
         "tags": [
             "news"
         ],
@@ -130,23 +150,5 @@
             "next.js"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/bb5dc44f-907e-4e3d-b705-2931b550fe57/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/Next.js-13-%EC%9D%B4-useRouter%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C",
-        "headline": "Next.js 13 이후 useRouter에 대해서",
-        "context": "Next.js 13버전 이후로 달라진 useRouter 사용법",
-        "date": "2024년 4월 11일",
-        "tags": [
-            "next.js"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/654a6048-8225-4c75-8ee1-f5b5ec3bc7d1/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/Redux-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Redux-Toolkit",
-        "headline": "Redux 그리고 Redux Toolkit",
-        "context": "전역 상태 관리 라이브러리 중 하나인 Redux에 대해서 알아보겠습니다 😊",
-        "date": "2024년 4월 9일",
-        "tags": [],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/c7e8c77c-a0eb-4917-8b6b-a396d181a4b9/image.avif"
     }
 ]
