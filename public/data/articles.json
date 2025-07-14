@@ -1,5 +1,15 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/Windows%EC%97%90%EC%84%9C-WSL-Claude-Code-Cursor-%EC%99%84%EB%B2%BD-%EC%84%A4%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C",
+        "headline": "Windows에서 WSL + Claude Code + Cursor 완벽 설정 가이드",
+        "context": "이 가이드는 WSL2, Cursor, Claude Code와 같은 명령줄 도구들을 활용하여 전문적인 개발 환경을 구축하는 방법을 단계별로 설명합니다.",
+        "date": "11분 전",
+        "tags": [
+            "claude code"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/21d4b7bc-02ab-4df0-b17b-4e4af399dc94/image.png"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-696-25.06.11",
         "headline": "[번역] Frontend Focus #696 - 25.06.11",
         "context": "25년 6월 11일 프론트엔드 뉴스",
@@ -141,13 +151,5 @@
             "network"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7169bdd1-f919-4b05-81e7-9db5d5d12bb4/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/HTTP%EB%9E%80",
-        "headline": "HTTP란?",
-        "context": "HTTP 프로토콜에 대해서 자세히 알아보겠습니다!",
-        "date": "2024년 4월 22일",
-        "tags": [],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7c4e76a8-1a22-4ccf-a363-fc9838c29321/image.jpg"
     }
 ]
