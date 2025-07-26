@@ -1,1 +1,155 @@
-[]
+[
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-698-25.06.25",
+        "headline": "[번역] Frontend Focus #698 - 25.06.25",
+        "context": "25년 6월 25일 프론트엔드 뉴스레터",
+        "date": "1일 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/5c1f472b-dced-470c-b560-2fe9ae4c347a/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-697-25.06.18",
+        "headline": "[번역] Frontend Focus #697 - 25.06.18",
+        "context": "25년 6월 18일 프론트엔드 뉴스레터",
+        "date": "3일 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/c242bfe5-dc11-47c9-92be-23c7c1c26d0e/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/Windows%EC%97%90%EC%84%9C-WSL-Claude-Code-Cursor-%EC%99%84%EB%B2%BD-%EC%84%A4%EC%A0%95-%EA%B0%80%EC%9D%B4%EB%93%9C",
+        "headline": "Windows에서 WSL + Claude Code + Cursor 완벽 설정 가이드",
+        "context": "이 가이드는 WSL2, Cursor, Claude Code와 같은 명령줄 도구들을 활용하여 전문적인 개발 환경을 구축하는 방법을 단계별로 설명합니다.",
+        "date": "2025년 7월 14일",
+        "tags": [
+            "claude code"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/21d4b7bc-02ab-4df0-b17b-4e4af399dc94/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-696-25.06.11",
+        "headline": "[번역] Frontend Focus #696 - 25.06.11",
+        "context": "25년 6월 11일 프론트엔드 뉴스",
+        "date": "2025년 7월 11일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d7352efd-77e6-462f-85c0-268bdab128e7/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-695-25.06.04",
+        "headline": "[번역] Frontend Focus #695 - 25.06.04",
+        "context": "25년 6월 4일 프론트엔드 뉴스",
+        "date": "2025년 7월 10일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/1992bf54-c7cb-40d0-9713-f498d08a0949/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-694-25.05.28",
+        "headline": "[번역] Frontend Focus #694 - 25.05.28",
+        "context": "25년 5월 28일 프론트엔드 뉴스",
+        "date": "2025년 7월 10일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/0e7e653e-96d9-4fe4-906e-cd930714b035/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-693-25.05.21",
+        "headline": "[번역] Frontend Focus #693 - 25.05.21",
+        "context": "25년 5월 21일 프론트엔드 뉴스",
+        "date": "2025년 7월 10일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d07f8bda-a3df-45e8-bca7-0d42719c98b7/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-692-25.05.14-%EC%9E%84%EC%8B%9C",
+        "headline": "[번역] Frontend Focus #692 - 25.05.14",
+        "context": "25년 5월 14일 프론트엔드 뉴스레터",
+        "date": "2025년 6월 18일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/3835c5c8-a53a-4401-87e7-e1c069cd0b5d/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-691-25.05.07",
+        "headline": null,
+        "context": "25년 5월 7일 프론트엔드 뉴스레터",
+        "date": "2025년 5월 11일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": null
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-690-25.04.30",
+        "headline": "[번역] Frontend Focus #690 - 25.04.30",
+        "context": "25년 4월 30일 프론트엔드 뉴스레터",
+        "date": "2025년 5월 6일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/5f453bda-a194-4841-a4a7-fa71b554f83b/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/Tailwind-CSS-vs-SCSS-%EC%A0%84%EA%B2%A9-%EB%B9%84%EA%B5%90",
+        "headline": "Tailwind CSS vs SCSS 전격 비교",
+        "context": "사내 팀 회의에서 나온 의견에 대해서 포스팅합니다!",
+        "date": "2025년 5월 4일",
+        "tags": [
+            "CSS",
+            "scss",
+            "tailwind"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/b783323c-c6ce-4cf8-958e-8d0b92a30e93/image.webp"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/rrweb%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%9C-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%84%B8%EC%85%98-%EA%B8%B0%EB%A1%9D-%EC%98%81%EC%83%81-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0",
+        "headline": "rrweb을 활용한 사용자 세션 기록 영상 구현하기",
+        "context": "rrweb 라이브러리를 활용하여 영상 레코드 & 리플레이를 구현",
+        "date": "2025년 5월 2일",
+        "tags": [
+            "rrweb",
+            "rum"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7e1c913b-ec2b-4247-ad46-9aff34bdeaa5/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EA%B3%BC-%ED%81%B4%EB%9E%98%EC%8A%A4",
+        "headline": "자바스크립트의 프로토타입과 클래스",
+        "context": "자바스크립트에서 프로토타입과 클래스는 어떻게 다른 걸까요?",
+        "date": "2024년 6월 5일",
+        "tags": [
+            "JavaScript"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/8c46d7b7-ccc4-4ae0-9f53-f7a0fe17fe72/image.avif"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8",
+        "headline": "자바스크립트 실행 컨텍스트",
+        "context": "자바스크립트에서 가장 중요한 핵심 개념 중 하나인 실행 컨텍스트",
+        "date": "2024년 6월 4일",
+        "tags": [
+            "JavaScript"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/9be9ed02-2810-428d-b12e-8030a3733995/image.jpeg"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98",
+        "headline": "자바스크립트 가비지 컬렉션",
+        "context": "자바스크립트 메모리 관리를 이해하다!",
+        "date": "2024년 5월 24일",
+        "tags": [
+            "JavaScript"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/b0ca9284-1357-42fa-9cbc-40a02496b51f/image.webp"
+    }
+]
