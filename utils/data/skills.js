@@ -7,6 +7,7 @@ export const skillsData = [
   'React',
   'Next JS',
   'Tailwind',
+  'Flutter',
   'Git',
 ];
 

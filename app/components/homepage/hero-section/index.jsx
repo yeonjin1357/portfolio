@@ -128,6 +128,10 @@ function HeroSection() {
                 <span className='text-gray-400'>{"', '"}</span>
                 <span className='text-amber-300'>TypeScript</span>
                 <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Flutter</span>
+                <span className='text-gray-400'>{"', '"}</span>
+                <span className='text-amber-300'>Tailwind</span>
+                <span className='text-gray-400'>{"', '"}</span>
                 <span className='text-amber-300'>Git</span>
                 <span className='text-gray-400'>{"'],"}</span>
               </div>
