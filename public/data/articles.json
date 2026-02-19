@@ -1,5 +1,15 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/GitHub-Agent-HQ-Agent-Skills%EB%A1%9C-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%98%AC%EB%A6%AC%EB%8A%94-%EC%8B%A4%EC%A0%84-%ED%8C%81",
+        "headline": "AI가 최신 문서를 못 따라가는 이유, 그리고 해결책: Google Developer Knowledge API + MCP 서버로 “공식 문서” 연결하기",
+        "context": "Google Developer Knowledge API + MCP 서버로 “공식 문서” 연결하기",
+        "date": "약 17시간 전",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/ea1af6ae-1a94-404c-95f3-a330f630f8ff/image.jpeg"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-699-25.07.02",
         "headline": "[번역] Frontend Focus #699 - 25.07.02",
         "context": "25년 7월 2일 프론트엔드 뉴스레터",
@@ -141,15 +151,5 @@
             "JavaScript"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/8c46d7b7-ccc4-4ae0-9f53-f7a0fe17fe72/image.avif"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%8B%A4%ED%96%89-%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8",
-        "headline": "자바스크립트 실행 컨텍스트",
-        "context": "자바스크립트에서 가장 중요한 핵심 개념 중 하나인 실행 컨텍스트",
-        "date": "2024년 6월 4일",
-        "tags": [
-            "JavaScript"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/9be9ed02-2810-428d-b12e-8030a3733995/image.jpeg"
     }
 ]
