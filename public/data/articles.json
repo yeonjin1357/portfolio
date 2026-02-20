@@ -1,9 +1,20 @@
 [
     {
+        "href": "https://velog.io/@yeonjin1357/TypeScript-6.0-Beta-%EB%B0%9C%ED%91%9C-%EC%A0%95%EB%A6%AC",
+        "headline": "TypeScript 6.0 Beta 발표 정리",
+        "context": "2026년 2월 11일, TypeScript 6.0 Beta가 공개됐습니다.",
+        "date": "약 17시간 전",
+        "tags": [
+            "news",
+            "typescript"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/6e1557c6-973b-45cf-aee9-d9980165ed92/image.webp"
+    },
+    {
         "href": "https://velog.io/@yeonjin1357/GitHub-Agent-HQ-Agent-Skills%EB%A1%9C-%EC%83%9D%EC%82%B0%EC%84%B1-%EC%98%AC%EB%A6%AC%EB%8A%94-%EC%8B%A4%EC%A0%84-%ED%8C%81",
         "headline": "AI가 최신 문서를 못 따라가는 이유, 그리고 해결책: Google Developer Knowledge API + MCP 서버로 “공식 문서” 연결하기",
         "context": "Google Developer Knowledge API + MCP 서버로 “공식 문서” 연결하기",
-        "date": "약 17시간 전",
+        "date": "어제",
         "tags": [
             "news"
         ],
@@ -141,15 +152,5 @@
             "rum"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/7e1c913b-ec2b-4247-ad46-9aff34bdeaa5/image.png"
-    },
-    {
-        "href": "https://velog.io/@yeonjin1357/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%EC%9D%98-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85%EA%B3%BC-%ED%81%B4%EB%9E%98%EC%8A%A4",
-        "headline": "자바스크립트의 프로토타입과 클래스",
-        "context": "자바스크립트에서 프로토타입과 클래스는 어떻게 다른 걸까요?",
-        "date": "2024년 6월 5일",
-        "tags": [
-            "JavaScript"
-        ],
-        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/8c46d7b7-ccc4-4ae0-9f53-f7a0fe17fe72/image.avif"
     }
 ]
