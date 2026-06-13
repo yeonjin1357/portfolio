@@ -3,7 +3,7 @@
         "href": "https://velog.io/@yeonjin1357/%EB%8F%84%EB%A9%94%EC%9D%B8-%EA%B3%B5%EB%B6%80-%ED%98%B8%EC%8A%A4%ED%8A%B8",
         "headline": null,
         "context": "통합 모니터링 제품을 구현하면서 많이 느꼈다... 공부하자! 호스트 모니터링 — \"서버가 건강한가?\" ▲ 회사 통합 모니터링 제품 중 호스트 화면 일부 먼저 호스트란 뭘까 물리 서버든 가상머신(VM)이든, OS가 깔려서 돌아가는 컴퓨터 한 대를 호스트라고 부릅니다. 저희가 업무를 할 때 사용하는 컴퓨터, 노트북도 모두 호스트라는 말씀. 인프라 ...",
-        "date": "1일 전",
+        "date": "3일 전",
         "tags": [
             "host"
         ],
@@ -99,5 +99,57 @@
             "news"
         ],
         "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/0e7e653e-96d9-4fe4-906e-cd930714b035/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-693-25.05.21",
+        "headline": "[번역] Frontend Focus #693 - 25.05.21",
+        "context": "25년 5월 21일 프론트엔드 뉴스",
+        "date": "2025년 7월 10일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/d07f8bda-a3df-45e8-bca7-0d42719c98b7/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-692-25.05.14-%EC%9E%84%EC%8B%9C",
+        "headline": "[번역] Frontend Focus #692 - 25.05.14",
+        "context": "25년 5월 14일 프론트엔드 뉴스레터",
+        "date": "2025년 6월 18일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/3835c5c8-a53a-4401-87e7-e1c069cd0b5d/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-691-25.05.07",
+        "headline": null,
+        "context": "25년 5월 7일 프론트엔드 뉴스레터",
+        "date": "2025년 5월 11일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": null
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/%EB%B2%88%EC%97%AD-Frontend-Focus-690-25.04.30",
+        "headline": "[번역] Frontend Focus #690 - 25.04.30",
+        "context": "25년 4월 30일 프론트엔드 뉴스레터",
+        "date": "2025년 5월 6일",
+        "tags": [
+            "news"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/5f453bda-a194-4841-a4a7-fa71b554f83b/image.png"
+    },
+    {
+        "href": "https://velog.io/@yeonjin1357/Tailwind-CSS-vs-SCSS-%EC%A0%84%EA%B2%A9-%EB%B9%84%EA%B5%90",
+        "headline": "Tailwind CSS vs SCSS 전격 비교",
+        "context": "사내 팀 회의에서 나온 의견에 대해서 포스팅합니다!",
+        "date": "2025년 5월 4일",
+        "tags": [
+            "CSS",
+            "scss",
+            "tailwind"
+        ],
+        "thumbnail": "https://velog.velcdn.com/images/yeonjin1357/post/b783323c-c6ce-4cf8-958e-8d0b92a30e93/image.webp"
     }
 ]
