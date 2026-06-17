@@ -1,4 +1,6 @@
-export const personalData = {
+import type { PersonalData } from "@/utils/types";
+
+export const personalData: PersonalData = {
   name: '최연진',
   profile: '/profile.png',
   designation: '제품 경험을 구현하는 개발자',

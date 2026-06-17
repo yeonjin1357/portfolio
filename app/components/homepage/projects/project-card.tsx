@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { FiArrowUpRight } from "react-icons/fi";
+import type { Project } from "@/utils/types";
 
-function ProjectCard({ project }) {
+function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={project.link}

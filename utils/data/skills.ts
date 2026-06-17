@@ -1,15 +1,17 @@
-// `icons` entries must match keys in utils/skill-image.js (SVG assets exist for them).
+import type { SkillGroup } from '@/utils/types';
+
+// `icons` entries must match keys in utils/skill-image.ts (SVG assets exist for them).
 // `extras` render as plain monospace chips (no icon needed).
-export const skillGroups = [
+export const skillGroups: SkillGroup[] = [
   {
     title: 'Core · 제품 화면',
-    icons: ['React', 'Next JS', 'Typescript', 'Vue'],
+    icons: ['React', 'Next JS', 'Vue', 'Typescript', 'Javascript'],
     extras: [],
   },
   {
     title: '데이터 · 시각화',
-    icons: ['Javascript'],
-    extras: ['eCharts', '실시간 차트', 'REST API'],
+    icons: [],
+    extras: ['REST API', 'Canvas'],
   },
   {
     title: '마크업 · 스타일 · 접근성',

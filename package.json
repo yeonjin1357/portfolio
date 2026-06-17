@@ -10,18 +10,22 @@
   },
   "dependencies": {
     "@emailjs/browser": "4.3.1",
-    "next": "13.5.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^15.5.19",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "react-icons": "4.11.0",
-    "react-toastify": "10.0.4"
+    "react-toastify": "^11.1.0"
   },
   "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "10.4.16",
-    "eslint": "8.50.0",
-    "eslint-config-next": "13.5.3",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.19",
     "postcss": "8.4.30",
     "sass": "1.69.5",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "typescript": "^6.0.3"
   }
 }

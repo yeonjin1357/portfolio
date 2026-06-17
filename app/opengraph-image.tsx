@@ -1,4 +1,4 @@
-import { ImageResponse } from "next/server";
+import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 export const alt = "JINJIN · Frontend Developer";
@@ -28,10 +28,9 @@ export default function OpengraphImage() {
           <span style={{ color: "#C7741A" }}>OBSERVATORY</span>
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ fontSize: 82, fontWeight: 700, letterSpacing: -2, lineHeight: 1.05 }}>
-            Reading the unseen
-            <br />
-            signal into screens.
+          <div style={{ display: "flex", flexDirection: "column", fontSize: 82, fontWeight: 700, letterSpacing: -2, lineHeight: 1.05 }}>
+            <span>Reading the unseen</span>
+            <span>signal into screens.</span>
           </div>
           <div style={{ marginTop: 28, fontSize: 27, color: "#5A6472" }}>
             Real-time data viz · Reusable UI · Accessibility

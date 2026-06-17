@@ -1,5 +1,5 @@
 // Shared section header: a monospace eyebrow + a display-face title.
-function SectionHead({ label, title }) {
+function SectionHead({ label, title }: { label: string; title: string }) {
   return (
     <>
       <p className="font-mono text-xs tracking-[0.16em] uppercase text-verified flex items-center gap-2.5 mb-5">

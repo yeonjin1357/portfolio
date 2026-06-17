@@ -1,4 +1,6 @@
-export const experiences = [
+import type { Experience } from '@/utils/types';
+
+export const experiences: Experience[] = [
   {
     id: 1,
     company: '엑셈 (Exem)',
@@ -10,7 +12,7 @@ export const experiences = [
       '공통 UI 컴포넌트 설계 및 재사용 가능한 컴포넌트 아키텍처 구축 (Storybook)',
       'REST API 연동을 통한 실시간 데이터 수집·처리',
     ],
-    tools: ['Vue', 'TypeScript', 'eCharts', 'Storybook'],
+    tools: ['Vue', 'TypeScript', 'Canvas', 'Storybook'],
   },
   {
     id: 2,

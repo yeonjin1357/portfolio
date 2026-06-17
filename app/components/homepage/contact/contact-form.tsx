@@ -17,7 +17,7 @@ function ContactForm() {
     if (input.email && input.message && input.name) setError({ ...error, required: false });
   };
 
-  const handleSendMail = async (e) => {
+  const handleSendMail = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!input.email || !input.message || !input.name) {
       setError({ ...error, required: true });
@@ -28,16 +28,21 @@ function ContactForm() {
 
     const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-    const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceID || !templateID || !publicKey) {
+      toast.error("메일 설정이 누락되었어요. 잠시 후 다시 시도해 주세요.");
+      return;
+    }
 
     try {
-      const res = await emailjs.send(serviceID, templateID, input, options);
+      const res = await emailjs.send(serviceID, templateID, input, { publicKey });
       if (res.status === 200) {
         toast.success("메일이 전송되었어요!");
         setInput({ name: "", email: "", message: "" });
       }
     } catch (err) {
-      toast.error(err?.text || "전송에 실패했어요. 잠시 후 다시 시도해 주세요.");
+      toast.error((err as { text?: string })?.text || "전송에 실패했어요. 잠시 후 다시 시도해 주세요.");
     }
   };
 
@@ -53,7 +58,7 @@ function ContactForm() {
             maxLength={100}
             required
             value={input.name}
-            onChange={(e) => setInput({ ...input, name: e.target.value })}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput({ ...input, name: e.target.value })}
             onBlur={checkRequired}
           />
         </div>
@@ -69,7 +74,7 @@ function ContactForm() {
             value={input.email}
             aria-invalid={error.email}
             aria-describedby={error.email ? "cf-email-err" : undefined}
-            onChange={(e) => setInput({ ...input, email: e.target.value })}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput({ ...input, email: e.target.value })}
             onBlur={() => {
               checkRequired();
               setError({ ...error, email: !isValidEmail(input.email) });
@@ -91,7 +96,7 @@ function ContactForm() {
             rows={4}
             required
             value={input.message}
-            onChange={(e) => setInput({ ...input, message: e.target.value })}
+            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setInput({ ...input, message: e.target.value })}
             onBlur={checkRequired}
           />
         </div>

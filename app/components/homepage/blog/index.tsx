@@ -4,16 +4,17 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import BlogCard from "./blog-card";
 import SectionHead from "../section-head";
+import type { Article } from "@/utils/types";
 
 function Blog() {
-  const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState<Article[]>([]);
 
   useEffect(() => {
     (async () => {
       try {
         const res = await fetch("/data/articles.json");
         if (res.ok) {
-          const data = await res.json();
+          const data: Article[] = await res.json();
           setBlogs(data.filter((item) => item?.thumbnail));
         } else {
           console.error("Failed to load articles");

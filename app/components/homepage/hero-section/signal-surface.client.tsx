@@ -10,17 +10,17 @@ const W = 560,
 // Abstract "signal observation" hero motif: an oscilloscope waveform + a radar sweep.
 // Pure atmosphere — NOT real data, and no claimed metrics. Frozen under reduced-motion.
 export default function SignalSurface() {
-  const lnRef = useRef(null);
-  const ln2Ref = useRef(null);
-  const areaRef = useRef(null);
-  const scanRef = useRef(null);
-  const sweepRef = useRef(null);
-  const blipsRef = useRef([]);
+  const lnRef = useRef<SVGPathElement | null>(null);
+  const ln2Ref = useRef<SVGPathElement | null>(null);
+  const areaRef = useRef<SVGPathElement | null>(null);
+  const scanRef = useRef<SVGLineElement | null>(null);
+  const sweepRef = useRef<SVGGElement | null>(null);
+  const blipsRef = useRef<(SVGCircleElement | null)[]>([]);
 
   useEffect(() => {
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    const wave = (ph, amp, f1, f2, off) => {
+    const wave = (ph: number, amp: number, f1: number, f2: number, off: number): string => {
       let d = "";
       for (let i = 0; i < N; i++) {
         const x = (i / (N - 1)) * W;
@@ -30,12 +30,12 @@ export default function SignalSurface() {
       return d.trim();
     };
 
-    const draw = (ph) => {
+    const draw = (ph: number) => {
       const a = wave(ph, 30, 7, 3, 0);
       lnRef.current?.setAttribute("d", a);
       areaRef.current?.setAttribute("d", a + ` L ${W} ${H} L 0 ${H} Z`);
       ln2Ref.current?.setAttribute("d", wave(ph * 1.25 + 1.5, 16, 5, 9, 16));
-      const sx = (ph * 38) % W;
+      const sx = String((ph * 38) % W);
       scanRef.current?.setAttribute("x1", sx);
       scanRef.current?.setAttribute("x2", sx);
     };
@@ -46,8 +46,8 @@ export default function SignalSurface() {
       return;
     }
 
-    let raf;
-    const frame = (ts) => {
+    let raf = 0;
+    const frame = (ts: number) => {
       const t = ts / 1000;
       draw(t * 1.4);
       sweepRef.current?.setAttribute("transform", `rotate(${(t * 70) % 360} 80 80)`);
@@ -60,7 +60,7 @@ export default function SignalSurface() {
     return () => cancelAnimationFrame(raf);
   }, []);
 
-  const blips = [
+  const blips: [number, number, string][] = [
     [113, 103, "#137A6B"],
     [38, 122, "#137A6B"],
     [66, 30, "#C7741A"],
@@ -114,7 +114,16 @@ export default function SignalSurface() {
               <line x1="80" y1="80" x2="80" y2="8" stroke="#C7741A" strokeWidth="1.6" />
             </g>
             {blips.map(([cx, cy, fill], i) => (
-              <circle key={i} ref={(el) => (blipsRef.current[i] = el)} cx={cx} cy={cy} r="2.6" fill={fill} />
+              <circle
+                key={i}
+                ref={(el) => {
+                  blipsRef.current[i] = el;
+                }}
+                cx={cx}
+                cy={cy}
+                r="2.6"
+                fill={fill}
+              />
             ))}
           </svg>
         </div>

@@ -1,12 +1,14 @@
 import { personalData } from "@/utils/data/personal-data";
+import type { PersonalData } from "@/utils/types";
 import Link from "next/link";
+import type { IconType } from "react-icons";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { SiNotion, SiVelog } from "react-icons/si";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactForm from "./contact-form";
 import SectionHead from "../section-head";
 
-const SOCIALS = [
+const SOCIALS: [keyof PersonalData, string, IconType][] = [
   ["github", "GitHub", BsGithub],
   ["notion", "Notion", SiNotion],
   ["velog", "Velog", SiVelog],
