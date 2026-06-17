@@ -7,27 +7,23 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        paper: '#F2F3F5',
+        ink: '#1C2127',
+        steel: '#5A6472',
+        line: '#D8DCE2',
+        card: '#FBFCFD',
+        accent: '#C7741A', // signal amber
+        verified: '#137A6B', // teal
+        caution: '#A23A2E', // clay
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "1rem",
-          sm: "2rem",
-          lg: "3rem",
-          xl: "4rem",
-          "2xl": "4rem",
-          "3xl": "5rem",
-        },
+      fontFamily: {
+        display: ['"Wanted Sans Variable"', '"Pretendard Variable"', 'system-ui', 'sans-serif'],
+        sans: ['"Pretendard Variable"', 'Pretendard', '-apple-system', 'system-ui', 'sans-serif'],
+        mono: ['"IBM Plex Mono"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
       },
-
-      extend: {
-        screens: {
-          "4k": "1980px",
-        },
+      screens: {
+        '4k': '1980px',
       },
     },
   },

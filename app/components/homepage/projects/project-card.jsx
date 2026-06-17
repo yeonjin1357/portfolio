@@ -1,72 +1,30 @@
-import * as React from "react";
+import Link from "next/link";
+import { FiArrowUpRight } from "react-icons/fi";
 
 function ProjectCard({ project }) {
   return (
-    <div className="from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37] w-full">
-      <div className="flex flex-row">
-        <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
-        <div className="h-[1px] w-full bg-gradient-to-r from-violet-600 to-transparent"></div>
+    <Link
+      href={project.link}
+      target="_blank"
+      className="group block rounded-lg border border-line bg-card p-6 transition-all hover:border-ink hover:-translate-y-0.5"
+    >
+      <div className="flex items-center justify-between mb-2">
+        <span className="font-mono text-[11px] text-steel tracking-[0.08em]">{project.role}</span>
+        <FiArrowUpRight className="text-steel group-hover:text-accent transition-colors" size={18} />
       </div>
-      <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
-        <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-400"></div>
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
-          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
-        </div>
-        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
-          <a href={project.link} target="_blank">
-            {project.name}
-          </a>
-        </p>
+      <h3 className="font-display text-xl font-bold text-ink mb-2">{project.name}</h3>
+      <p className="text-[14.5px] text-[#2b3038] leading-relaxed mb-4">{project.summary}</p>
+      <div className="flex flex-wrap gap-2">
+        {project.tools.map((t) => (
+          <span key={t} className="font-mono text-[11px] text-steel border border-line rounded px-2 py-0.5">
+            {t}
+          </span>
+        ))}
       </div>
-      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-        <code className="font-mono text-xs md:text-sm lg:text-base">
-          <div className="blink">
-            <span className="mr-2 text-pink-500">const</span>
-            <span className="mr-2 text-white">project</span>
-            <span className="mr-2 text-pink-500">=</span>
-            <span className="text-gray-400">{"{"}</span>
-          </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-            <span className="text-gray-400">{`'`}</span>
-            <span className="text-amber-300">{project.name}</span>
-            <span className="text-gray-400">{`',`}</span>
-          </div>
-
-          <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
-            <span className="text-gray-400">{` ['`}</span>
-            {project.tools.map((tag, i) => (
-              <React.Fragment key={i}>
-                <span className="text-amber-300">{tag}</span>
-                {project.tools.length - 1 !== i && <span className="text-gray-400">{`', '`}</span>}
-              </React.Fragment>
-            ))}
-            <span className="text-gray-400">{"],"}</span>
-          </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">myRole:</span>
-            <span className="text-orange-400">{project.role}</span>
-            <span className="text-gray-400">,</span>
-          </div>
-          <div>
-            <span className="ml-4 lg:ml-8 mr-2 text-white">link:</span>
-            <a href={project.link} target="_blank" className="text-orange-400">
-              자세히 보기
-            </a>
-            <span className="text-gray-400">,</span>
-          </div>
-          <div className="ml-4 lg:ml-8 mr-2 whitespace-pre-line">
-            <span className="text-white">description:</span>
-            <span className="text-cyan-400">{" " + project.description}</span>
-          </div>
-          <div>
-            <span className="text-gray-400">{`};`}</span>
-          </div>
-        </code>
-      </div>
-    </div>
+      <span className="font-mono text-[12px] text-ink group-hover:text-accent mt-4 inline-flex items-center gap-1.5 transition-colors">
+        {project.linkLabel} ↗
+      </span>
+    </Link>
   );
 }
 

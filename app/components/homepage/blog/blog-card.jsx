@@ -3,25 +3,37 @@ import Link from "next/link";
 
 function BlogCard({ blog }) {
   return (
-    <div className="border border-[#1d293a] hover:border-[#464c6a] transition-all duration-500 bg-[#1b203e] rounded-lg relative group">
-      <div className="h-44 lg:h-52 w-auto cursor-pointer overflow-hidden rounded-t-lg">
-        <Image src={blog.thumbnail} height={1080} width={1920} alt="" className="h-full w-full group-hover:scale-110 transition-all duration-300 object-cover" />
+    <Link
+      href={blog.href}
+      target="_blank"
+      className="group flex flex-col rounded-lg border border-line bg-card overflow-hidden transition-all hover:border-ink hover:-translate-y-0.5"
+    >
+      <div className="h-44 w-full overflow-hidden bg-paper">
+        <Image
+          src={blog.thumbnail}
+          height={1080}
+          width={1920}
+          alt=""
+          className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-300"
+        />
       </div>
-      <div className="p-2 sm:p-3 flex flex-col">
-        <div className="flex justify-between items-center text-[#16f2b3] text-sm">
-          <p>{blog.date}</p>
-        </div>
-        <Link target="_blank" href={blog.href}>
-          <p className="my-2 lg:my-3 cursor-pointer text-lg sm:text-xl font-medium text-white hover:text-blue-300">{blog.headline}</p>
-        </Link>
-        <p className="text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3">{blog.context}</p>
-        <div className="">
-          <Link target="_blank" href={blog.href}>
-            <button className="bg-violet-500 text-white px-3 py-1.5 rounded-full text-xs">Read More</button>
-          </Link>
-        </div>
+      <div className="p-4 flex flex-col flex-1">
+        <span className="font-mono text-[11px] text-steel">{blog.date}</span>
+        <h3 className="text-[15.5px] font-semibold text-ink leading-snug my-1.5 line-clamp-2 group-hover:text-accent transition-colors">
+          {blog.headline}
+        </h3>
+        <p className="text-[13px] text-steel leading-relaxed line-clamp-2 flex-1">{blog.context}</p>
+        {Array.isArray(blog.tags) && blog.tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-3">
+            {blog.tags.slice(0, 3).map((t, i) => (
+              <span key={i} className="font-mono text-[10.5px] text-verified">
+                #{t}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
-    </div>
+    </Link>
   );
 }
 

@@ -1,50 +1,51 @@
-// @flow strict
 import { personalData } from "@/utils/data/personal-data";
 import Link from "next/link";
-import { BiLogoLinkedin } from "react-icons/bi";
-import { IoLogoGithub, IoMdCall } from "react-icons/io";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { SiNotion, SiVelog } from "react-icons/si";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactForm from "./contact-form";
+import SectionHead from "../section-head";
+
+const SOCIALS = [
+  ["github", "GitHub", BsGithub],
+  ["notion", "Notion", SiNotion],
+  ["velog", "Velog", SiVelog],
+  ["linkedIn", "LinkedIn", BsLinkedin],
+];
 
 function ContactSection() {
   return (
-    <div id="contact" className="my-12 lg:my-16 relative mt-24">
-      <div className="hidden lg:flex flex-col items-center absolute top-24 -right-8">
-        <span className="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">CONTACT</span>
-        <span className="h-36 w-[2px] bg-[#1a1443]"></span>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+    <section id="contact" className="my-16 lg:my-24 scroll-mt-20">
+      <SectionHead label="연락 / Contact" title="함께 만들 화면이 있다면." />
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 mt-8 items-start">
         <ContactForm />
-
-        <div className="lg:w-3/4 ">
-          <div className="flex flex-col gap-5 lg:gap-9">
-            <p className="text-sm md:text-xl flex items-center gap-3">
-              <MdAlternateEmail className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={36} />
-              <span className="text-gray-100">{personalData.email}</span>
-            </p>
-            <p className="text-sm md:text-xl flex items-center gap-3">
-              <IoMdCall className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={36} />
-              <span className="text-gray-100">{personalData.phone}</span>
-            </p>
-          </div>
-          <div className="mt-8 lg:mt-16 flex items-center gap-5 lg:gap-10">
-            <Link target="_blank" href={personalData.github}>
-              <IoLogoGithub className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={48} />
-            </Link>
-            <Link target="_blank" href={personalData.notion}>
-              <SiNotion className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={48} />
-            </Link>
-            <Link target="_blank" href={personalData.velog}>
-              <SiVelog className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={48} />
-            </Link>
-            <Link target="_blank" href={personalData.linkedIn}>
-              <BiLogoLinkedin className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer" size={48} />
-            </Link>
+        <div>
+          <p className="text-steel text-[15px] leading-relaxed mb-6">
+            합류·협업 제안은 메일로 보내주시면 1~2일 내로 답장 드릴게요.
+          </p>
+          <a
+            href={`mailto:${personalData.email}`}
+            className="inline-flex items-center gap-3 text-ink hover:text-accent transition-colors font-mono text-[14px] mb-8"
+          >
+            <MdAlternateEmail size={20} className="text-accent" />
+            {personalData.email}
+          </a>
+          <div className="flex items-center gap-3">
+            {SOCIALS.map(([key, label, Icon]) => (
+              <Link
+                key={label}
+                href={personalData[key]}
+                target="_blank"
+                aria-label={label}
+                className="w-11 h-11 grid place-items-center rounded-md border border-line text-steel hover:text-accent hover:border-ink transition-colors"
+              >
+                <Icon size={20} />
+              </Link>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

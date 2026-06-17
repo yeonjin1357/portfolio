@@ -9,23 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.3.1",
-    "@types/react-typist": "^2.0.6",
-    "lottie-react": "^2.4.0",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "react-fast-marquee": "^1.6.2",
-    "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4",
-    "react-typed": "^2.0.12"
+    "@emailjs/browser": "4.3.1",
+    "next": "13.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "4.11.0",
+    "react-toastify": "10.0.4"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "postcss": "latest",
-    "sass": "^1.69.5",
-    "tailwindcss": "latest"
+    "autoprefixer": "10.4.16",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3",
+    "postcss": "8.4.30",
+    "sass": "1.69.5",
+    "tailwindcss": "3.3.3"
   }
 }

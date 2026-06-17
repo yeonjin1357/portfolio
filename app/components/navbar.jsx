@@ -1,49 +1,30 @@
 import Link from "next/link";
 
+const LINKS = [
+  ["#about", "ABOUT"],
+  ["#experience", "CAREER"],
+  ["#skills", "STACK"],
+  ["#projects", "WORK"],
+  ["#blogs", "LOG"],
+  ["#contact", "CONTACT"],
+];
+
 function Navbar() {
   return (
-    <nav className="bg-transparent">
-      <div className="flex items-center justify-between py-5">
-        <div className="flex flex-shrink-0 items-center">
-          <Link href="/" className=" text-[#16f2b3] text-3xl font-bold">
-            JINJIN
-          </Link>
-        </div>
-
-        <ul className="mt-4 flex h-screen max-h-0 w-full flex-col items-start text-sm opacity-0 md:mt-0 md:h-auto md:max-h-screen md:w-auto md:flex-row md:space-x-1 md:border-0 md:opacity-100" id="navbar-default">
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#about">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">ABOUT</div>
+    <header className="sticky top-0 z-40 bg-paper/90 backdrop-blur-sm border-b border-line">
+      <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] flex items-center justify-between py-4 font-mono text-xs">
+        <Link href="/" className="text-ink font-semibold tracking-tight">
+          최연진 <span className="text-steel">· JINJIN</span>
+        </Link>
+        <nav className="hidden md:flex gap-5 text-steel" aria-label="섹션 내비게이션">
+          {LINKS.map(([href, label]) => (
+            <a key={href} href={href} className="hover:text-accent transition-colors">
+              {label}
             </a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#experience">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">EXPERIENCE</div>
-            </a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#skills">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">SKILLS</div>
-            </a>
-          </li>
-          {/* <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#education">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">EDUCATION</div>
-            </a>
-          </li> */}
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#blogs">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">BLOGS</div>
-            </a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 no-underline outline-none hover:no-underline" href="#projects">
-              <div className="dark:text-gray-300 text-sm text-gray-300 transition-colors duration-300 hover:text-gray-400 focus:text-white dark:hover:text-pink-600">PROJECTS</div>
-            </a>
-          </li>
-        </ul>
+          ))}
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }
 
