@@ -21,4 +21,14 @@ export const projectsData: Project[] = [
     link: 'https://github.com/yeonjin1357/dichroma',
     linkLabel: 'GitHub',
   },
+  {
+    id: 3,
+    name: 'Living Earth (실시간 지진 시각화)',
+    role: '개인 프로젝트',
+    summary:
+      'USGS 실시간 지진 피드를 3D 지구본 위에 데이터 아트로 그리는 웹 앱. 경위도를 구면 좌표로 매핑해 지진 마커를 배치하고, 규모에 따라 파문이 퍼지는 셰이더 연출과 Natural Earth 기반 대륙 윤곽 렌더링을 구현했습니다.',
+    tools: ['React', 'TypeScript', 'Three.js', 'React Three Fiber', 'GLSL'],
+    link: 'https://yeonjin1357.github.io/living-earth/',
+    linkLabel: '라이브 데모',
+  },
 ];
